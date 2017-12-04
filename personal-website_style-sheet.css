@@ -1,11 +1,10 @@
-
 @font-face{
 	font-family: 'Amaranth';
-	src: url("ClaudiaBonitatibus_PersonalWebsite/Amaranth/amaranth-regular-webfont.ttf");
+	src: url("Amaranth/amaranth-regular-webfont.ttf");
 	font-family: 'Blacksword';
-	src: url("ClaudiaBonitatibus_PersonalWebsite/Blacksword/blacksword-demo.html");
+	src: url("Blacksword/blacksword-demo.html");
 	font-family: 'Blacksword';
-	src: url("ClaudiaBonitatibus_PersonalWebsite/Lato/lato-regular.tff");
+	src: url("Lato/lato-regular.tff");
 }
 
 html{font-size:100%;
@@ -21,15 +20,21 @@ footer{
 	bottom: 0;
 	height: 1rem; /* 16px */
 	left: 0;
+	border-top: 4rem;
 	padding: .5rem;
 	position: fixed;
 	width: 100%;
 }
 
+footer p{
+	padding-bottom: 2rem;
+}
+
 h1{
-	color:#595959;
-	font-size:2.75rem;
-	font-family: Blacksword, serif; 
+	/*color:#595959; <--- previous color*/
+	color:#dbdad9;
+	font-size:3.25rem;
+	font-family: Blacksword, Amaranth, serif; 
 	padding: 1rem;
 }
 
@@ -43,22 +48,44 @@ h3{
 	color:#c3504a;
 	font-size:1.25rem;
 	font-family: Lato, Arial, sans-serif; 
+	text-decoration: none;
+}
+
+h3 a{
+	color:#c3504a;
+	font-size:1.25rem;
+	font-family: Lato, Arial, sans-serif; 
+	text-decoration: none;
+}
+
+h3 a:hover{
+	color:#c3504a;
+	font-size:1.25rem;
+	font-family: Lato, Arial, sans-serif; 
+	text-decoration: underline;
 }
 
 h4{
 	color:#72856f;
 	font-size:1.25rem;
-	font-family: Lato, Arial, sans-serif; 
+	font-family: Lato, Arial, sans-serif;
+	padding-top: 1rem; 
+	padding-bottom: 1rem; 
 }
 
 header{
-	background-color:#c2dcc9;	
+	background-image: url('Artwork/banner.jpg');
+ 	background-repeat: no-repeat;
+	background-position: left top;
+	background-color:#deede2;	
 	left: 0;
 	height: 25rem;
 	text-align: center;
 	top: 0;
 	width: 100%;
 }
+
+
 
 main{
 	background-color:#fff9f3;
@@ -110,6 +137,7 @@ div.container_AboutClaudia{
 	font-size:1rem;
   	margin-top:8px;
   	width: 24%;
+  	height: 100%;
 }
 
 div.container_AboutClaudia h2 {
@@ -163,8 +191,7 @@ div.text ul{
 
 
 /********* COLLEGE PORTFOLIO *********/
-header.portfolioPage{
-	background-color:#c2dcc9;	
+header.portfolioPage{	
 	left: 0;
 	height: 17rem;
 	text-align: center;
@@ -182,8 +209,8 @@ padding-top: 6.5rem;
   grid-auto-rows: minmax(6.25rem, auto);
 }
 
-.largePortfolioGrid div.portfolioPiece, .smallPortfolioGrid div.portfolioPiece{
-	padding-top: 5rem;
+div.portfolioPiece{
+	padding-top: 4rem;
 	text-align: center;
 }
 
@@ -193,5 +220,18 @@ padding-top: 6.5rem;
 
 .portfolioPieceDescription{
 	text-align: center;
-	padding-bottom: 2rem;
+	padding: 2rem 2rem 0rem 2rem;
+}
+
+.portfolioPieceDescription p{
+	text-align: center;
+	padding: 0rem 3rem 2rem 3rem;
+}
+
+.row3_column3 p{
+	padding-bottom: 8rem;
+}
+
+.smallPortfolioGrid div.row2_column3 p{
+	padding-bottom: 8rem;
 }
