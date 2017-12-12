@@ -2,10 +2,10 @@
 @font-face{
 	font-family: 'Amaranth';
 	src: url("Amaranth/amaranth-regular-webfont.ttf");
-    font-family: 'blackswordregular';
-    src: url('blacksword-webfont.woff2') format('woff2'),
+    	font-family: 'blackswordregular';
+    	src: url('blacksword-webfont.woff2') format('woff2'),
          url('blacksword-webfont.woff') format('woff');
-    font-family: 'Lato';
+    	font-family: 'Lato';
 	src: url("Lato/Lato-Regular.tff");
 }
 
