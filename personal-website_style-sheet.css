@@ -1,10 +1,12 @@
+
 @font-face{
 	font-family: 'Amaranth';
 	src: url("Amaranth/amaranth-regular-webfont.ttf");
-	font-family: 'Blacksword';
-	src: url("Blacksword/blacksword-demo.html");
-	font-family: 'Blacksword';
-	src: url("Lato/lato-regular.tff");
+    font-family: 'blackswordregular';
+    src: url('blacksword-webfont.woff2') format('woff2'),
+         url('blacksword-webfont.woff') format('woff');
+    font-family: 'Lato';
+	src: url("Lato/Lato-Regular.tff");
 }
 
 html{font-size:100%;
@@ -15,24 +17,25 @@ body{
 	background-color:#fff9f3;
 }
 
+body.home{
+	background-color:#fff7e6;}
+
 footer{
+	color: #fff7e6;
 	background-color: rgba(100,100,100,0.88);
 	bottom: 0;
+	border-top: 4rem;
 	height: 1rem; /* 16px */
 	left: 0;
-	border-top: 4rem;
+	margin-bottom: 0;
 	padding: .5rem;
 	position: fixed;
+	text-align: center;
 	width: 100%;
 }
 
-footer p{
-	padding-bottom: 2rem;
-}
-
 h1{
-	/*color:#595959; <--- previous color*/
-	color:#dbdad9;
+	color:#595959;
 	font-size:3.25rem;
 	font-family: Blacksword, Amaranth, serif; 
 	padding: 1rem;
@@ -69,12 +72,12 @@ h4{
 	color:#72856f;
 	font-size:1.25rem;
 	font-family: Lato, Arial, sans-serif;
-	padding-top: 1rem; 
+	padding-top: .5rem; 
 	padding-bottom: 1rem; 
 }
 
 header{
-	background-image: url('Artwork/banner.jpg');
+	background-image: url('artwork/banner.jpg');
  	background-repeat: no-repeat;
 	background-position: left top;
 	background-color:#deede2;	
@@ -89,7 +92,9 @@ header{
 
 main{
 	background-color:#fff9f3;
-	font-family: Lato, Arial, sans-serif;}
+	font-family: Lato, Helvetica, sans-serif;}
+
+
 
 nav{
 	/*background-color:#8d968c;*/
@@ -132,12 +137,13 @@ header div.container div.header_logo{
 
 div.container_AboutClaudia{
 	background-color:#fff7e6;
+	border-top: 8px solid #fff9f3;
 	color:#2f2f2f;
 	float: left;
 	font-size:1rem;
-  	margin-top:8px;
+	height: 100%;
+  	
   	width: 24%;
-  	height: 100%;
 }
 
 div.container_AboutClaudia h2 {
@@ -154,13 +160,13 @@ div.photo_AboutClaudia{
 }
 
 div.container_Resume{
-	background-color:#fff7e6;
+	background-color:#fff9f3;
 	border-left: 5px solid #c2dcc9;
+	border-top: 8px solid #fff9f3;
 	color:#2f2f2f;
 	font-size:1rem;
 	float: right;
-	width: 74%;
-	margin-top:8px;
+	width: 75%;
 }
 
 div.column_Resume{
@@ -172,7 +178,7 @@ div.image{
 }
 
 div.text{
-	width: 75%;
+	width: 85%;
 }
 div.text h4{
 	margin-top: 2rem;
@@ -180,14 +186,17 @@ div.text h4{
 }
 
 div.text p{
-	margin-top:.25rem; 
+	margin-top:.45rem; 
 	margin-bottom: .25rem;
 }
 
 div.text ul{
-	margin-top: .25rem;
+	margin-top: .45rem;
 }
 
+div.text ul li{
+	margin-top: .35rem;
+}
 
 
 /********* COLLEGE PORTFOLIO *********/
@@ -201,6 +210,7 @@ header.portfolioPage{
 
 .header_portfolioPageTitle h1{
 padding-top: 6.5rem;
+margin: 0;
 }
 
 .largePortfolioGrid, .smallPortfolioGrid{
@@ -234,4 +244,18 @@ div.portfolioPiece{
 
 .smallPortfolioGrid div.row2_column3 p{
 	padding-bottom: 8rem;
+}
+
+/*Secodary Pages*/
+
+div.largeImage{
+padding: 3rem;
+text-align: center;
+}
+
+div.largeImage img{
+max-width: 60vw;
+max-height: 80vh;
+min-width: 10vw;
+min-height:10vh;
 }
