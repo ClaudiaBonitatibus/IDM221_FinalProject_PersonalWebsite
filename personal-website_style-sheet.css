@@ -51,21 +51,21 @@ h2{
 h3{
 	color:#c3504a;
 	font-size:1.25rem;
-	font-family: Helvetica, sans-serif; 
+	font-family: Amaranth, sans-serif; 
 	text-decoration: none;
 }
 
 h3 a{
 	color:#c3504a;
 	font-size:1.25rem;
-	font-family: Helvetica, sans-serif; 
+	font-family: Amaranth, sans-serif; 
 	text-decoration: none;
 }
 
 h3 a:hover{
 	color:#c3504a;
 	font-size:1.25rem;
-	font-family: Helvetica, sans-serif; 
+	font-family: Amaranth, sans-serif; 
 	text-decoration: underline;
 }
 
@@ -176,10 +176,6 @@ div.container_Resume{
 
 div.column_Resume{
 	padding: 2.5rem 2.5rem 6rem 2.5rem; /* 40px 40px 96px 40px*/
-}
-
-div.image{
-	
 }
 
 div.text{
