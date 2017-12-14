@@ -21,15 +21,26 @@ body.home{
 	background-color:#fff7e6;}
 
 footer{
-	color: #fff7e6;
 	background-color: rgba(100,100,100,0.88);
-	bottom: 0;
 	border-top: 4rem; /* 64px */ 
-	height: 1.5rem; /* 24px */
+	bottom: 0;
+	height: 1.25rem; /* 20px */
 	left: 0;
-	padding: .5rem; /* 8px */
+	padding-top: .5rem; /* 16px */
 	position: static;
 	text-align: center;
+}
+
+footer a{
+	color: #fff7e6;
+	font-style: bold;
+	text-decoration: none;
+}
+
+footer a:hover{
+	color: #fff7e6;
+	font-style: bold;
+	text-decoration: underline;
 }
 
 h1{
@@ -60,7 +71,6 @@ h3 a{
 }
 
 h3 a:hover{
-	color:#c3504a;
 	font-size:1.25rem; /* 20px */
 	font-family: Amaranth, sans-serif; 
 	text-decoration: underline;
@@ -101,14 +111,14 @@ nav{
 	width: 100%;
 }
 
-nav ul {
+nav ul{
   list-style: none;
   margin: 0;
   padding: 0 2rem 1rem 2rem; /* 0px 32px 16px 32px */
   text-align: right;
 }
 
-nav ul li {
+nav ul li{
   display: inline-block;
 }
 
@@ -121,11 +131,11 @@ nav ul li a{
   text-transform: capitalize;
 }
 
-nav ul li a.active {
+nav ul li a.active{
   color: #a7b3a5;
 }
 
-nav ul li a:hover {
+nav ul li a:hover{
   color: #c2dcc9;
 }
 
@@ -144,7 +154,7 @@ div.container_AboutClaudia{
   	width: 24%;
 }
 
-div.container_AboutClaudia h2 {
+div.container_AboutClaudia h2{
 	text-align:center; 
 }
 
