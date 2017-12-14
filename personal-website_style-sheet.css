@@ -1,4 +1,3 @@
-
 @font-face{
 	font-family: 'Amaranth';
 	src: url("Amaranth/amaranth-regular-webfont.ttf");
@@ -28,11 +27,9 @@ footer{
 	border-top: 4rem; /* 64px */ 
 	height: 1.5rem; /* 24px */
 	left: 0;
-	margin-bottom: 0;
 	padding: .5rem; /* 8px */
 	position: static;
 	text-align: center;
-	width: 100%;
 }
 
 h1{
@@ -90,12 +87,9 @@ header{
 }
 
 
-
 main{
 	color:#303030;
-	background-color:#fff9f3;
 	font-family: Helvetica, sans-serif;}
-
 
 
 nav{
@@ -142,12 +136,11 @@ header div.container div.header_logo{
 
 div.container_AboutClaudia{
 	background-color:#fff7e6;
-	border-top: 8px solid #fff9f3;
 	color:#2f2f2f;
 	float: left;
 	font-size:1rem; /* 16px */
 	height: 100%;
-  	
+	padding-top: 5;
   	width: 24%;
 }
 
@@ -170,12 +163,11 @@ div.container_Resume{
 	border-top: 8px solid #fff9f3;
 	color:#2f2f2f;
 	font-size:1rem; /* 16px */
-	float: right;
-	width: 75%;
+	margin-left: 24%;
 }
 
 div.column_Resume{
-	padding: 2.5rem 2.5rem 4.5rem 2.5rem; /* 40px 40px 72px 40px*/
+	padding: 2.5rem 2.5rem 3rem 2.5rem; /* 40px 40px 72px 40px*/
 }
 
 div.text{
