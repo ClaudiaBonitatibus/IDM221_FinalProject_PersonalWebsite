@@ -24,9 +24,9 @@ footer{
 	background-color: rgba(100,100,100,0.88);
 	border-top: 4rem; /* 64px */ 
 	bottom: 0;
-	height: 1.25rem; /* 20px */
 	left: 0;
-	padding-top: .5rem; /* 16px */
+	padding-top: .5625rem; /* 9px */
+	padding-bottom: .5625rem; /* 9px */
 	position: static;
 	text-align: center;
 }
@@ -45,7 +45,7 @@ footer a:hover{
 
 h1{
 	color:#595959;
-	font-size:3.25rem; /* 52px */
+	font-size: 3.25rem; /* 52px */
 	font-family: Blacksword, Amaranth, serif; 
 	padding: 1rem; /* 16px */
 }
@@ -150,7 +150,7 @@ div.container_AboutClaudia{
 	float: left;
 	font-size:1rem; /* 16px */
 	height: 100%;
-	padding-top: 5;
+	padding-top: .5rem; /* 8px */
   	width: 24%;
 }
 
