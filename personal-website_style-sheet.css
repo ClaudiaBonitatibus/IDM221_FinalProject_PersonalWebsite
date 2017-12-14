@@ -1,12 +1,12 @@
 @font-face{
 	font-family: 'Amaranth';
-	src: url("Amaranth/amaranth-regular-webfont.ttf");
+	src: url("amaranth/amaranth-regular-webfont.ttf");
 }
 
 @font-face{
  font-family: 'Blacksword';
-    src: url('Blacksword/blacksword-webfont.woff2') format('woff2'),
-         url('Blacksword/blacksword-webfont.woff') format('woff');
+    src: url('blacksword/blacksword-webfont.woff2') format('woff2'),
+         url('blacksword/blacksword-webfont.woff') format('woff');
 }
 
 html{font-size:100%;
